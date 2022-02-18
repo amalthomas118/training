@@ -1,0 +1,372 @@
+.Home {
+    width: 1800px;
+    height: 2423px;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: #fff;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::selection {
+    color: cadetblue;
+    background-color: #000;
+}
+
+.image {
+    width: 188px;
+    height: 84px;
+    margin: auto;
+    padding-right: 84px;
+    padding-left: 130px;
+    float: left;
+    display: inline;
+}
+
+.navigation {
+    display: flex;
+    align-items: stretch;
+    background-color: rgb(255, 255, 255);
+    width: 1334px;
+    position: absolute;
+    align-content: center;
+    top: 10px;
+    left: 525px;
+    cursor: pointer;
+    transition: font-size 2s;
+}
+
+.navigation>div {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Mono", monospace;
+    margin: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.banner {
+    position: relative;
+    top: auto;
+}
+
+.imge {
+    width: 1540px;
+    height: 608px;
+    padding-left: 130px;
+    padding-top: 57px;
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1036px;
+    height: 98px;
+    margin: 0 0 17px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 100px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.98;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.discp {
+    align-content: center;
+    width: 1000px;
+    height: 30px;
+    display: inline;
+    font-family: "Roboto Mono", monospace;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    float: left;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+#discrp {
+    align-content: center;
+    display: inline;
+    font-size: 24px;
+    width: 1000px;
+    height: 40px;
+    position: fixed;
+    top: 230;
+    padding: 8px 28px 8px 29px;
+    background-color: #000;
+    margin: auto;
+}
+
+#rectangle {
+    width: 130px;
+    height: 50px;
+    margin: 0px 0px 0 0px;
+    padding: 13px 30px 13px 30px;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.25);
+    background-color: #3d98b4;
+    cursor: pointer;
+}
+
+#rectangle:hover {
+    background: rgb(17, 60, 85);
+}
+
+.KB-NOW {
+    width: 70px;
+    height: 24px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    position: initial;
+    top: 300px;
+    left: 0px;
+}
+
+.search-bar {
+    width: auto;
+    height: 61px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Udforsk-vores-kategorier {
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 0px 0px 0px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 40px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: centers;
+    color: rgb(3, 3, 3);
+    position: absolute;
+    top: 800px;
+    left: 270px;
+}
+
+.search {
+    width: 20px;
+    height: 23.5px;
+    margin: 0px 0px 0px 0px;
+    object-fit: contain;
+    position: absolute;
+    right: 550px;
+    top: 825px;
+}
+
+.Search-for-your-product {
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 0px 0px 0px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 22px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 1163px;
+    top: 825px;
+    left: 1370px;
+}
+
+.Line-8 {
+    position: absolute;
+    left: 1332px;
+    top: 853px;
+    width: 400px;
+    height: 1px;
+    background-color: #000;
+}
+
+#pictures {
+    position: relative;
+    padding-left: inherit;
+}
+
+.Hvorfor-handle-hos-os {
+    position: absolute;
+    left: 134px;
+    width: auto;
+    height: auto;
+    padding-left: 130px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 40px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    text-transform: uppercase;
+}
+
+#description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.OPN-MEDLEMSPRISER {
+    position: absolute;
+    right: 460px;
+    width: auto;
+    height: auto;
+    font-family: "Roboto Mono", monospace;
+    padding-left: 300px;
+    font-size: 40px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+p::first-letter {
+    color: rgb(57, 155, 235);
+    font-size: xx-large;
+}
+
+p::first-line {
+    color: rgb(41, 201, 241);
+}
+
+#Pellentesque-habitant-morbi-tristique-senectus-et {
+    width: 691px;
+    height: 183px;
+    margin: 49px 0px 0px 80px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+#Et-netus-et-malesuada-fames-ac-turpis-egestas-Ves {
+    width: 691px;
+    height: 200px;
+    margin: 0px 0 0 0px;
+    padding-right: 200px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    display: inline;
+    float: left;
+    position: relative;
+    top: 40px;
+}
+
+.Rectangle-2 {
+    cursor: pointer;
+    position: absolute;
+    top: 1665px;
+    left: 250px;
+    width: 165px;
+    height: 40px;
+    padding: 13px 28px 12px 28px;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.25);
+    background-color: #000;
+    text-align: center;
+    transition: width 2s, height 2s;
+    align-content: center;
+}
+
+.Rectangle-2:hover {
+    width: 180px;
+    height: 55px;
+    background: rgb(110, 110, 110);
+}
+
+.LS-MERE-HER {
+    width: 135px;
+    height: 25px;
+    position: absolute;
+    right: 45px;
+    top: 25px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.Rectangle-3 {
+    transition: width 2s, height 2s;
+    position: absolute;
+    left: 1012px;
+    top: 1780px;
+    width: 172px;
+    height: 50px;
+    padding: 13px 32px 12px;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.25);
+    background-color: #000;
+    cursor: pointer;
+}
+
+.Rectangle-3:hover {
+    background: rgb(110, 110, 110);
+    width: 150px;
+    height: 40px;
+}
+
+.LS-MERE-HERR {
+    width: 172px;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.footer {
+    width: 1800px;
+    height: 395.9px;
+    align-content: center;
+    position: absolute;
+    left: 349px;
+    top: 1900px;
+}
